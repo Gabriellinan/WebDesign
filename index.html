@@ -24,7 +24,7 @@
 
     <header class="header">
         <div class="header-container header-auto">
-            <img class="logo" src="./img/GA LOGO.png" width: 150px height: 170px="AG">
+            <img class="logo" src="./img/GA LOGO.png" width:150 height:170 alt="AG">
         </div>
     </header>
     <aside class="aside-nav">
@@ -55,17 +55,17 @@
             </li>
         </ul>
     </aside>
-    <section id="home" class="base base-home"> 
+    <section id="home" class="base base-home">
         <div class="home-container mx-auto">
             <div class="home-head">
-                <h1 class="name"><small class="name-small">hello,I am</small>Gabriel Lin</h1>
+                <h1 class="name"><small class="name-small">Hello,I am</small>Gabriel Lin</h1>
                 <h2 class="job-title">UI/UX Designer </h2>
                 <p class="subtitle">
                     我熱愛為使用者打造引人入勝的體驗，將創意設計思維與深刻的使用者需求相融合。這獨特結合不僅帶來創新解決方案，更強調創建獨特而令人難忘的使用者體驗。透過深入了解使用者期望和需求，我不斷挑戰自我，汲取無盡靈感，實現引人入勝的設計，滿足使用者期待。
                 </p>
             </div>
             <div class="home-body">
-                <img src="" alt="個人照片">
+                <img src="./img/Photo.JPG" alt="個人照片">
             </div>
         </div>
     </section>
@@ -137,31 +137,31 @@
             <div class="base-body">
                 <div class="project">
                     <div class="project-items">
-                        <div id="project1" class="project-item project-open1">
-                            <img class="project-img" src="" alt="Asisst Plus Mobile" width="300" height="180">
-                            <div>
+                        <div id="project1" class="project-item">
+                            <img class="project-img" src="./img/asisst first.png" alt="Asisst Plus Mobile" width="300" height="180">
+                            <div class="project-item-content">
                                 <h2 class="project-title">Asisst Plus Mobile</h2>
                                 <p class="project-desc">
                                     醫療輔具平台整合科技與醫療知識，提供便捷的購物渠道、健康資訊、專業建議和社群支援。使用者能輕鬆找到符合需求的輔具，同時參與互助社區，實現更健康、便捷且有尊嚴的生活。
                                 </p>
-                                <div id="asisst" class="project-item-pic">
-                                    <img class="project-pic" src="./img/assist2.png" alt="">
-                                </div>
                             </div>
                         </div>
-                        <div id="project2" class="project-item project-open2">
-                            <img class="project-img" src="" alt="Trip Maker Mobile" width="300" height="180">
-                            <div>
+                        <div id="asisst" class="project-item-pic">
+                            <img class="project-pic" src="./img/assist2.png" alt="">
+                        </div>
+                        <div id="project2" class="project-item">
+                            <img class="project-img" src="./img/tripmaker first.png" alt="Asisst Plus Mobile" width="740" height="200">
+                            <div class="project-item-content">
                                 <h2 class="project-title">Trip Maker Mobile</h2>
-                                <p class="project-desc">探險之門，旅心所向。
-                                    透過巧妙規劃的行程，我們引導您在嶄新之地展開心靈感官的冒險。每趟旅程都是難以忘懷的寶貴經驗，不論是山徑探險、古老城市漫遊，滿足您對歷史、美食和當地文化的渴望。無論何處，我們的旅遊平台都將您的全球探險之旅變為現實。
+                                <p class="project-desc">
+                                    探險之門，旅心所向。巧妙規劃的行程，我們引導您在嶄新之地展開心靈感官的冒險。每趟旅程都是難以忘懷的寶貴經驗，不論是山徑探險、古老城市漫遊，滿足您對歷史。探險之旅變為現實。
                                 </p>
-                                <div id="trip" class="project-item-pic">
-                                    <img class="project-pic" src="./img/Trip.png" alt="">
-                                </div>
                             </div>
                         </div>
-                        <i id="btnXmark" class="fa-solid fa-xmark btn-Xmark"></i>    
+                        <div id="trip" class="project-item-pic">
+                            <img class="project-pic" src="./img/Trip.png" alt="">
+                        </div>
+                        <i id="btnXmark" class="fa-solid fa-xmark btn-Xmark"></i>
                     </div>
                 </div>
             </div>
@@ -175,20 +175,20 @@
             <div class="input-container">
                 <div class="input-items">
                     <div class="input-item">
-                        <input class="input" type="text">
-                        <div class="labelline">name</div>
+                        <input class="input" type="text" required="required">
+                        <span>name</span>
                     </div>
                     <div class="input-item">
-                        <input class="input" type="text">
-                        <div class="labelline">email</div>
+                        <input class="input" type="text" required="required">
+                        <span>email</span>
                     </div>
                     <div class="input-item">
-                        <input class="input" type="text">
-                        <div class="labelline">phone</div>
+                        <input class="input" type="text" required="required">
+                        <span>phone</span>
                     </div>
                     <div class="input-item input-content">
                         <input class=" input input-content-desc" type="text">
-                        <button type="button" class="submit-btn">submit</button>
+                        <button type="button" class="btn-submit">submit</button>
                     </div>
                 </div>
             </div>
@@ -212,13 +212,12 @@
                 <div class="footer-icon">
                     <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <p class="footer-desc">台北市</p>
+                <p class="footer-info">台北市</p>
             </div>
         </div>
     </footer>
     <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/all.js"></script>
-    <script src="path/to/scrollNav.js"></script>
 </body>
 
 </html>

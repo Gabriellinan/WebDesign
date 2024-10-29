@@ -19,33 +19,28 @@ window.onscroll = () => {
 };
 
 $('#project1').click(function(){
-    $('#asisst').fadeIn()
-    $('#asisst').css({zIndex: '11'})
-    $('#btnXmark').fadeIn()
-    $('#btnXmark').css({zIndex: '11'})
-    $('body').css({overFlow:'hidden'})
+    $('#asisst').fadeIn(800);
+    $('#asisst').css('z-index', '10');
+    $('#btnXmark').fadeIn(800);
+    $('#btnXmark').css('z-index', '10');
+    $('body').css('overflow', 'hidden')
+});
+
+$('#project2').click(function(){
+    $('#trip').fadeIn(800);
+    $('#trip').css('zIndex','10');
+    $('#btnXmark').fadeIn(800);
+    $('#btnXmark').css('zIndex', '10');
+    $('body').css('overflow','hidden');
 });
 
 $('#btnXmark').click(function(){
-    $('#asisst').fadeOut()
-    $('#asisst').css({zIndex:'-10'})
-    $('#btnXmark').fadeOut()
-    $('#btnXmark').css({zIndex: '-10'})
-    $('body').css({overFlow:'visible'})
-})
+    $('#asisst').hide(100);
+    $('#asisst').css('zIndex','-10');
+    $('#trip').hide(100);
+    $('#trip').css('zIndex','-10');
+    $('#btnXmark').fadeOut();
+    $('#btnXmark').css('zIndex', '-10');
+    $('body').css('overflow','visible');
+});
 
-$('#project2').click(function(){
-    $('#trip').show()
-    $('#trip').css({zIndex:'11'})
-    $('#btnXmark').fadeIn()
-    $('#btnXmark').css({zIndex: '11'})
-    $('body').css('overflow','hidden')
-})
-
-$('#btnXmark').click(function(){
-    $('#trip').fadeOut()
-    $('#trip').css({zIndex:'-10'})
-    $('#btnXmark').fadeOut()
-    $('#btnXmark').css({zIndex: '-10'})
-    $('body').css('overflow','visible')
-})
