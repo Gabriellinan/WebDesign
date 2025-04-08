@@ -24,7 +24,7 @@
 
     <header class="header">
         <div class="header-container header-auto">
-            <img class="logo" src="./img/GA LOGO.png" width:150 height:170 alt="AG">
+            <img class="logo" src="./img/GA LOGO.png"  alt="AG">
         </div>
     </header>
     <aside class="aside-nav">
@@ -59,13 +59,17 @@
         <div class="home-container mx-auto">
             <div class="home-head">
                 <h1 class="name"><small class="name-small">Hello,I am</small>Gabriel Lin</h1>
-                <h2 class="job-title">UI/UX Designer </h2>
+                <h2 class="job-title">UI/UX Designer</h2>
                 <p class="subtitle">
                     我熱愛為使用者打造引人入勝的體驗，將創意設計思維與深刻的使用者需求相融合。這獨特結合不僅帶來創新解決方案，更強調創建獨特而令人難忘的使用者體驗。透過深入了解使用者期望和需求，我不斷挑戰自我，汲取無盡靈感，實現引人入勝的設計，滿足使用者期待。
                 </p>
             </div>
-            <div class="home-body">
-                <img src="./img/Photo.JPG" alt="個人照片">
+            <div class="home-body">   
+                <picture>
+                    <source media="(max-width: 480px)" srcset="./img/Photo-mobile.JPG">
+                    <source media="(max-width: 768px)" srcset="./img/Photo-mobile.JPG">
+                    <img src="./img/Photo.JPG" alt="個人照片">
+                  </picture>
             </div>
         </div>
     </section>
@@ -80,31 +84,45 @@
             <div class="about-body about">
                 <h3 class="skill">skill</h3>
                 <ul class="skill-ul">
-                    <li class="skill-li">figma<small class="skill-ch">精通</small>
+                    <li class="skill-li">
+                        <span class="skill-en">figma</span>
+                        <small class="skill-ch">精通</small>
                         <div class="front-line front-line-frist"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">prototype<small class="skill-ch">精通</small>
+                    <li class="skill-li">
+                        <span class="skill-en">prototype</span>
+                        <small class="skill-ch">精通</small>
                         <div class="front-line front-line-frist"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">html<small class="skill-ch">精通</small>
+                    <li class="skill-li">
+                        <span class="skill-en">html</span>
+                        <small class="skill-ch">精通</small>
                         <div class="front-line front-line-frist"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">css<small class="skill-ch">精通</small>
+                    <li class="skill-li">
+                        <span class="skill-en">css</span>
+                        <small class="skill-ch">精通</small>
                         <div class="front-line front-line-frist"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">jquery<small class="skill-ch">中等</small>
+                    <li class="skill-li">
+                        <span class="skill-en">jquery</span>
+                        <small class="skill-ch">中等</small>
                         <div class="front-line front-line-second"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">sp<small class="skill-ch">中等</small>
+                    <li class="skill-li">
+                        <span class="skill-en">sp</span>
+                        <small class="skill-ch">中等</small>
                         <div class="front-line front-line-second"></div>
                         <div class="back-line"></div>
                     </li>
-                    <li class="skill-li">ai<small class="skill-ch">中等</small>
+                    <li class="skill-li">
+                        <span class="skill-en">ai</span>
+                        <small class="skill-ch">中等</small>
                         <div class="front-line front-line-second"></div>
                         <div class="back-line"></div>
                     </li>
